@@ -113,7 +113,7 @@ function resizeCharts() {
 
 onMounted(async () => {
   try {
-    const res = await fetch('/data/ashare-2025.json')
+    const res = await fetch(import.meta.env.BASE_URL + 'data/ashare-2025.json')
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
     const data = await res.json()
     payload.value = data

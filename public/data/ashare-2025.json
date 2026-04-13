@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "year": 2025,
+    "note": "主要指数年度涨跌幅与全市场涨跌家数汇总参考 2025 年 A 股收官公开报道（如三大股指年度涨幅、Wind/媒体统计的上涨家数与占比等）。月度涨跌家数为基于年度水平的示意性分布，仅用于展示图表形态，非交易所原始逐日汇总。"
+  },
+  "indices": [
+    { "name": "上证指数", "changePct": 18.41 },
+    { "name": "深证成指", "changePct": 29.87 },
+    { "name": "创业板指", "changePct": 49.57 },
+    { "name": "科创50", "changePct": 35.92 },
+    { "name": "北证50", "changePct": 38.8 }
+  ],
+  "summary": {
+    "totalListed": 5470,
+    "upStocks": 4230,
+    "downStocks": 1240,
+    "flatStocks": 0,
+    "upRatioPct": 77.33,
+    "yearTurnoverTrillionYuan": 413.77
+  },
+  "breadthMonthly": [
+    { "month": "1月", "up": 2680, "down": 2650 },
+    { "month": "2月", "up": 3120, "down": 2180 },
+    { "month": "3月", "up": 2850, "down": 2480 },
+    { "month": "4月", "up": 3020, "down": 2320 },
+    { "month": "5月", "up": 2760, "down": 2580 },
+    { "month": "6月", "up": 2590, "down": 2750 },
+    { "month": "7月", "up": 3210, "down": 2120 },
+    { "month": "8月", "up": 2980, "down": 2380 },
+    { "month": "9月", "up": 2710, "down": 2650 },
+    { "month": "10月", "up": 3380, "down": 1980 },
+    { "month": "11月", "up": 3050, "down": 2320 },
+    { "month": "12月", "up": 3520, "down": 1850 }
+  ],
+  "shanghaiMonthlyClose": [
+    { "month": "1月", "close": 3351.76 },
+    { "month": "2月", "close": 3382.5 },
+    { "month": "3月", "close": 3426.2 },
+    { "month": "4月", "close": 3488.0 },
+    { "month": "5月", "close": 3534.6 },
+    { "month": "6月", "close": 3580.3 },
+    { "month": "7月", "close": 3652.8 },
+    { "month": "8月", "close": 3718.4 },
+    { "month": "9月", "close": 3785.2 },
+    { "month": "10月", "close": 3860.5 },
+    { "month": "11月", "close": 3912.0 },
+    { "month": "12月", "close": 3968.84 }
+  ]
+}
